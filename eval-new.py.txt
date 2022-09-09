@@ -1,0 +1,167 @@
+Test number: 1
+Test content: []
+Expected output: True
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '[]'
+Result: FAIL
+
+Test number: 2
+Test content: [[]]]
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '[[]]]'
+Result: FAIL
+
+Test number: 3
+Test content: ({][})
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '({][})'
+Result: FAIL
+
+Test number: 4
+Test content: (((({{{}{}}}))))
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '(((({{{}{}}}))))'
+Result: FAIL
+
+Test number: 5
+Test content: {{{{{{[[[[[[(((()())))]]]]]]}}}}}}
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '{{{{{{[[[[[[(((()())))]]]]]]}}}}}}'
+Result: FAIL
+
+Test number: 6
+Test content: {{{{{{[[[[[[{{{{][(())]}}}}]]]]]]}}}}}}
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '{{{{{{[[[[[[{{{{][(())]}}}}]]]]]]}}}}}}'
+Result: FAIL
+
+Test number: 7
+Test content: ((((({{{{{{[[[[[[{{{{{[[[[[((((()))))]]]]]}}}}}]]]]]]}}}}}})))))
+Expected output: True
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '((((({{{{{{[[[[[[{{{{{[[[[[((((()))))]]]]]}}}}}]]]]]]}}}}}})))))'
+Result: FAIL
+
+Test number: 8
+Test content: ((((((((((((((((((((((((((((((((({{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{[[[[[[[[[[[[[[[[[[[[[[[(((((((((((((((((((((((((({{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}))))))))))))))))))))))))))]]]]]]]]]]]]]]]]]]]]]]]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}})))))))))))))))))))))))))))))))))
+Expected output: True
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+OSError: [Errno 22] Invalid argument: '((((((((((((((((((((((((((((((((({{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{[[[[[[[[[[[[[[[[[[[[[[[(((((((((((((((((((((((((({{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}))))))))))))))))))))))))))]]]]]]]]]]]]]]]]]]]]]]]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}})))))))))))))))))))))))))))))))))'
+Result: FAIL
+
+Test number: 9
+Test content: [
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '['
+Result: FAIL
+
+Test number: 10
+Test content: dgadgas
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'dgadgas'
+Result: FAIL
+
+Test number: 11
+Test content: ()
+Expected output: True
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '()'
+Result: FAIL
+
+Test number: 12
+Test content: ()[]{}
+Expected output: True
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '()[]{}'
+Result: FAIL
+
+Test number: 13
+Test content: ((()))[]{[()]}
+Expected output: True
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '((()))[]{[()]}'
+Result: FAIL
+
+Test number: 14
+Test content: {}[]
+Expected output: True
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '{}[]'
+Result: FAIL
+
+Test number: 15
+Test content: {((}
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '{((}'
+Result: FAIL
+
+Test number: 16
+Test content: [{()}]
+Expected output: True
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '[{()}]'
+Result: FAIL
+
+Test number: 17
+Test content: [{)}]
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '[{)}]'
+Result: FAIL
+
+Test number: 18
+Test content: [[]}
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '[[]}'
+Result: FAIL
+
+
+Total tests: 18
+Total passes: 0
+Total fails: 18
+Pass percentage: 0.0%

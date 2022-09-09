@@ -1,0 +1,113 @@
+Test number: 1
+Test content: []
+Expected output: True
+Provided output: True
+Result: PASS
+
+Test number: 2
+Test content: [[]]]
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 3
+Test content: ({][})
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 4
+Test content: (((({{{}{}}}))))
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 5
+Test content: {{{{{{[[[[[[(((()())))]]]]]]}}}}}}
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 6
+Test content: {{{{{{[[[[[[{{{{][(())]}}}}]]]]]]}}}}}}
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 7
+Test content: ((((({{{{{{[[[[[[{{{{{[[[[[((((()))))]]]]]}}}}}]]]]]]}}}}}})))))
+Expected output: True
+Provided output: True
+Result: PASS
+
+Test number: 8
+Test content: ((((((((((((((((((((((((((((((((({{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{[[[[[[[[[[[[[[[[[[[[[[[(((((((((((((((((((((((((({{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}))))))))))))))))))))))))))]]]]]]]]]]]]]]]]]]]]]]]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}})))))))))))))))))))))))))))))))))
+Expected output: True
+Provided output: True
+Result: PASS
+
+Test number: 9
+Test content: [
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 10
+Test content: dgadgas
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 11
+Test content: ()
+Expected output: True
+Provided output: True
+Result: PASS
+
+Test number: 12
+Test content: ()[]{}
+Expected output: True
+Provided output: False
+Result: FAIL
+
+Test number: 13
+Test content: ((()))[]{[()]}
+Expected output: True
+Provided output: False
+Result: FAIL
+
+Test number: 14
+Test content: {}[]
+Expected output: True
+Provided output: False
+Result: FAIL
+
+Test number: 15
+Test content: {((}
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 16
+Test content: [{()}]
+Expected output: True
+Provided output: True
+Result: PASS
+
+Test number: 17
+Test content: [{)}]
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 18
+Test content: [[]}
+Expected output: False
+Provided output: False
+Result: PASS
+
+
+Total tests: 18
+Total passes: 15
+Total fails: 3
+Pass percentage: 83.33333333333334%
