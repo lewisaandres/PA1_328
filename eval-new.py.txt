@@ -160,8 +160,53 @@ Provided output: Traceback (most recent call last):
 FileNotFoundError: [Errno 2] No such file or directory: '[[]}'
 Result: FAIL
 
+Test number: 19
+Test content: ((
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '(('
+Result: FAIL
 
-Total tests: 18
+Test number: 20
+Test content: ()
+Expected output: True
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '()'
+Result: FAIL
+
+Test number: 21
+Test content: {)[]
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '{)[]'
+Result: FAIL
+
+Test number: 22
+Test content: ][
+Expected output: False
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: ']['
+Result: FAIL
+
+Test number: 23
+Test content: []
+Expected output: True
+Provided output: Traceback (most recent call last):
+  File "C:\Users\Lewis\Desktop\Fall_2022_Source_Code\New_PA1_328\eval-new.py", line 31, in <module>
+    f = open(testcase_file, "r")
+FileNotFoundError: [Errno 2] No such file or directory: '[]'
+Result: FAIL
+
+
+Total tests: 23
 Total passes: 0
-Total fails: 18
+Total fails: 23
 Pass percentage: 0.0%

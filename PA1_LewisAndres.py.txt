@@ -106,8 +106,38 @@ Expected output: False
 Provided output: False
 Result: PASS
 
+Test number: 19
+Test content: ((
+Expected output: False
+Provided output: False
+Result: PASS
 
-Total tests: 18
-Total passes: 15
+Test number: 20
+Test content: ()
+Expected output: True
+Provided output: True
+Result: PASS
+
+Test number: 21
+Test content: {)[]
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 22
+Test content: ][
+Expected output: False
+Provided output: False
+Result: PASS
+
+Test number: 23
+Test content: []
+Expected output: True
+Provided output: True
+Result: PASS
+
+
+Total tests: 23
+Total passes: 20
 Total fails: 3
-Pass percentage: 83.33333333333334%
+Pass percentage: 86.95652173913044%
