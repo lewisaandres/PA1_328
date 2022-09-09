@@ -147,3 +147,4 @@ Total tests: 24
 Total passes: 21
 Total fails: 3
 Pass percentage: 87.5%
+Pass or Fail: PASSING GRADE!

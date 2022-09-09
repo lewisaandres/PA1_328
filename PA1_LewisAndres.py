@@ -29,9 +29,8 @@ class Solution:
 			if len(s) % 2 != 0:
 				return False
 
-
             #compare left iter and right iter are matching key and values from bracketMap
-			#if left is NOT in key, return False
+			#if left is NOT in key, return False	
 			if s[i] not in bracketMap.keys():
 				return False
 			#if right is NOT in values, return False
@@ -40,6 +39,7 @@ class Solution:
 			#if left is key, but right doesn't match key-value, return False
 			if s[i] in bracketMap.keys() and s[len(s) - i - 1] != bracketMap.get(s[i]):
 				return False
+				
 			
 			
         #return True if otherwise
