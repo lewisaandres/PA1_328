@@ -21,3 +21,4 @@ dgadgas:False
 {)[]:False
 ][:False
 []:True
+{{}}:True

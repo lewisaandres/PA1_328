@@ -1,143 +1,123 @@
-Test number: 1
-Test content: []
-Expected output: True
-Provided output: True
-Result: PASS
+1
+[]
+The correct output is: True
+Your output is: True
+pass\not pass: pass
+2
+[[]]]
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+3
+({][})
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+4
+(((({{{}{}}}))))
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+5
+{{{{{{[[[[[[(((()())))]]]]]]}}}}}}
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+6
+{{{{{{[[[[[[{{{{][(())]}}}}]]]]]]}}}}}}
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+7
+((((({{{{{{[[[[[[{{{{{[[[[[((((()))))]]]]]}}}}}]]]]]]}}}}}})))))
+The correct output is: True
+Your output is: True
+pass\not pass: pass
+8
+((((((((((((((((((((((((((((((((({{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{[[[[[[[[[[[[[[[[[[[[[[[(((((((((((((((((((((((((({{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}))))))))))))))))))))))))))]]]]]]]]]]]]]]]]]]]]]]]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}})))))))))))))))))))))))))))))))))
+The correct output is: True
+Your output is: True
+pass\not pass: pass
+9
+[
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+10
+dgadgas
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+11
+()
+The correct output is: True
+Your output is: True
+pass\not pass: pass
+12
+()[]{}
+The correct output is: True
+Your output is: False
+pass\not pass: Not pass
+13
+((()))[]{[()]}
+The correct output is: True
+Your output is: False
+pass\not pass: Not pass
+14
+{}[]
+The correct output is: True
+Your output is: False
+pass\not pass: Not pass
+15
+{((}
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+16
+[{()}]
+The correct output is: True
+Your output is: True
+pass\not pass: pass
+17
+[{)}]
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+18
+[[]}
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+19
+((
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+20
+()
+The correct output is: True
+Your output is: True
+pass\not pass: pass
+21
+{)[]
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+22
+][
+The correct output is: False
+Your output is: False
+pass\not pass: pass
+23
+[]
+The correct output is: True
+Your output is: True
+pass\not pass: pass
+24
+{{}}
+The correct output is: TrueYour output is: True
+pass\not pass: pass
 
-Test number: 2
-Test content: [[]]]
-Expected output: False
-Provided output: False
-Result: PASS
+Total correct answers: 21
+Total incorrect answers: 3
 
-Test number: 3
-Test content: ({][})
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 4
-Test content: (((({{{}{}}}))))
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 5
-Test content: {{{{{{[[[[[[(((()())))]]]]]]}}}}}}
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 6
-Test content: {{{{{{[[[[[[{{{{][(())]}}}}]]]]]]}}}}}}
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 7
-Test content: ((((({{{{{{[[[[[[{{{{{[[[[[((((()))))]]]]]}}}}}]]]]]]}}}}}})))))
-Expected output: True
-Provided output: True
-Result: PASS
-
-Test number: 8
-Test content: ((((((((((((((((((((((((((((((((({{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{[[[[[[[[[[[[[[[[[[[[[[[(((((((((((((((((((((((((({{{{{{{{{{{{{{{{{{{}}}}}}}}}}}}}}}}}}}))))))))))))))))))))))))))]]]]]]]]]]]]]]]]]]]]]]]}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}})))))))))))))))))))))))))))))))))
-Expected output: True
-Provided output: True
-Result: PASS
-
-Test number: 9
-Test content: [
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 10
-Test content: dgadgas
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 11
-Test content: ()
-Expected output: True
-Provided output: True
-Result: PASS
-
-Test number: 12
-Test content: ()[]{}
-Expected output: True
-Provided output: False
-Result: FAIL
-
-Test number: 13
-Test content: ((()))[]{[()]}
-Expected output: True
-Provided output: False
-Result: FAIL
-
-Test number: 14
-Test content: {}[]
-Expected output: True
-Provided output: False
-Result: FAIL
-
-Test number: 15
-Test content: {((}
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 16
-Test content: [{()}]
-Expected output: True
-Provided output: True
-Result: PASS
-
-Test number: 17
-Test content: [{)}]
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 18
-Test content: [[]}
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 19
-Test content: ((
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 20
-Test content: ()
-Expected output: True
-Provided output: True
-Result: PASS
-
-Test number: 21
-Test content: {)[]
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 22
-Test content: ][
-Expected output: False
-Provided output: False
-Result: PASS
-
-Test number: 23
-Test content: []
-Expected output: True
-Provided output: True
-Result: PASS
-
-
-Total tests: 23
-Total passes: 20
-Total fails: 3
-Pass percentage: 86.95652173913044%
